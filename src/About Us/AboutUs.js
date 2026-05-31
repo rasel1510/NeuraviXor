@@ -10,8 +10,8 @@ const AboutUs = () => {
           About <span className="text-green-500">NEURAVIXOR</span>
         </h1>
         <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 max-w-4xl mx-auto leading-relaxed">
-          Neuravixor is a creative Web & AI development agency founded in 2021 during the Covid era. 
-          We are a team of 8 passionate professionals, each specialized in different creative and 
+          Neuravixor is a creative Web & AI development agency founded in 2021 during the Covid era.
+          We are a team of passionate professionals, each specialized in different creative and
           technical fields, working together to build powerful digital solutions from scratch.
         </p>
       </section>
@@ -22,12 +22,12 @@ const AboutUs = () => {
           <div className="space-y-6">
             <h2 className="text-4xl font-bold text-black dark:text-white">Our Vision & Mission</h2>
             <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-              We dream of creating something new, impactful, and meaningful in the digital world. 
-              Our mission is to help businesses grow through modern web technologies, 
+              We dream of creating something new, impactful, and meaningful in the digital world.
+              Our mission is to help businesses grow through modern web technologies,
               intelligent automation, and creative design.
             </p>
             <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-              We work both online and offline and have successfully completed many projects 
+              We work both online and offline and have successfully completed many projects
               by delivering quality, innovation, and dedication.
             </p>
           </div>
@@ -87,8 +87,8 @@ const AboutUs = () => {
       <section className="max-w-4xl mx-auto px-6 text-center mb-24">
         <h2 className="text-4xl font-bold text-black dark:text-white mb-8">Why Neuravixor?</h2>
         <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-          We approach every project with full potential, full effort, and a strong sense of responsibility. 
-          Each team member is unique in their own way, and together we deliver solutions that are 
+          We approach every project with full potential, full effort, and a strong sense of responsibility.
+          Each team member is unique in their own way, and together we deliver solutions that are
           creative, scalable, and future-ready.
         </p>
       </section>

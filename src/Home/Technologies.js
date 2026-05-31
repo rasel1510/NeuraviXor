@@ -48,7 +48,7 @@ const TechnologiesSection = () => {
           }
 
           .marquee {
-            animation: marquee 40s linear infinite;
+            animation: marquee 60s linear infinite;
           }
 
           .marquee:hover {
