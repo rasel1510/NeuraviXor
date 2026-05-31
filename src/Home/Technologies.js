@@ -2,16 +2,38 @@ import html from "../images/Code Logos/Html.jpg";
 import css from "../images/Code Logos/Css.jpg";
 import javascript from "../images/Code Logos/Javascript.jpg";
 import react from "../images/Code Logos/React.jpg";
+import nextjs from "../images/Code Logos/nextjs.png";
 import tailwind from "../images/Code Logos/Tailwind.jpg";
 import node from "../images/Code Logos/Node_js Logo PNG Vector (SVG) Free Download.jpg";
+import python from "../images/Code Logos/python logo.jpg";
+import pytorch from "../images/Code Logos/pytroch.png";
+import tensorflow from "../images/Code Logos/tensorflow.png";
+import java from "../images/Code Logos/java.png";
+import cplusplus from "../images/Code Logos/c++.png";
+import php from "../images/Code Logos/php.png";
+import postgresql from "../images/Code Logos/postgresql.png";
+import mongodb from "../images/Code Logos/mongodb.png";
+import docker from "../images/Code Logos/docker.png";
+import n8n from "../images/Code Logos/n8n.png";
 
 const technologies = [
   { name: "HTML", img: html },
   { name: "CSS", img: css },
   { name: "JavaScript", img: javascript },
   { name: "React", img: react },
+  { name: "Next.js", img: nextjs },
   { name: "Tailwind CSS", img: tailwind },
   { name: "Node.js", img: node },
+  { name: "Python", img: python },
+  { name: "PyTorch", img: pytorch },
+  { name: "TensorFlow", img: tensorflow },
+  { name: "Java", img: java },
+  { name: "C++", img: cplusplus },
+  { name: "PHP", img: php },
+  { name: "PostgreSQL", img: postgresql },
+  { name: "MongoDB", img: mongodb },
+  { name: "Docker", img: docker },
+  { name: "n8n", img: n8n },
 ];
 
 const TechnologiesSection = () => {
@@ -26,7 +48,7 @@ const TechnologiesSection = () => {
           }
 
           .marquee {
-            animation: marquee 28s linear infinite;
+            animation: marquee 40s linear infinite;
           }
 
           .marquee:hover {
@@ -42,8 +64,8 @@ const TechnologiesSection = () => {
             TECHNOLOGIES WE USE
           </h2>
 
-          {/* VISIBLE AREA (6 ICONS WIDTH) */}
-          <div className="relative mx-auto overflow-hidden w-[520px] sm:w-[620px]">
+          {/* VISIBLE AREA (FLUID FULL WIDTH WITH SHADOW GRADIENT FADE) */}
+          <div className="relative mx-auto overflow-hidden w-full max-w-5xl px-4">
             {/* Animated Row */}
             <div className="marquee flex items-center gap-10 w-max">
               {[...technologies, ...technologies].map((tech, index) => (

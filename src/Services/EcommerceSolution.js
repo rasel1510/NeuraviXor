@@ -19,7 +19,7 @@ const EcommerceSolution = () => {
         {/* Text */}
         <div className="relative z-10 flex flex-col justify-center items-center h-full text-center px-6">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            E-commerce Solutions
+            Software Development
           </h1>
           <p className="max-w-2xl text-gray-200 text-lg">
             Optimized product listings, store setup, and conversion-focused

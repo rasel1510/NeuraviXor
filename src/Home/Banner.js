@@ -1,5 +1,6 @@
 import banner from "../images/image banner.png";
 import { useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 
 // Advanced Congested Magnetic Net Component (Antigravity Style)
 const MagneticNet = ({ containerRef }) => {
@@ -234,9 +235,9 @@ const Banner = () => {
             execution — we turn concepts into powerful digital experiences.
           </p>
 
-          <button className="btn bg-orange-400 hover:bg-orange-500 border-none text-white px-8">
+          <Link to="/contact" className="btn bg-orange-400 hover:bg-orange-500 border-none text-white px-8 inline-flex items-center justify-center">
             Let’s Work Together
-          </button>
+          </Link>
         </div>
 
       </div>

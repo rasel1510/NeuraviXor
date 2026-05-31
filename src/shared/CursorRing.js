@@ -37,7 +37,7 @@ const CursorRing = () => {
     <>
       {/* The Ring */}
       <div
-        className="fixed top-0 left-0 w-10 h-10 border-2 border-orange-400 rounded-full pointer-events-none z-[9999] mix-blend-difference"
+        className="fixed top-0 left-0 w-10 h-10 border-2 border-orange-400 rounded-full pointer-events-none z-[9999]"
         style={{
           transform: `translate(${trailingPosition.x - 20}px, ${trailingPosition.y - 20}px)`,
           transition: "transform 0.05s linear",
