@@ -18,26 +18,31 @@ const services = [
     title: "Graphic Design",
     desc: "Branding, UI design, and social media visuals that communicate trust and authority.",
     img: Graphics_Design_Pic,
+    path: "/services/graphic-design",
   },
   {
-    title: "E-commerce Solutions",
-    desc: "Optimized product listings, store setup, and conversion-focused e-commerce systems.",
+    title: "Software Development",
+    desc: "Custom software, enterprise applications, and scalable digital solutions tailored to your business needs.",
     img: E_Commerce_Pic,
+    path: "/services/software-development",
   },
   {
     title: "AI Automation",
     desc: "Workflow automation using AI to reduce manual work and increase operational efficiency.",
     img: Ai_Automation_Pic,
+    path: "/services/ai-automation",
   },
   {
     title: "Custom AI Models",
     desc: "Business-specific AI models designed for analysis, intelligence, and decision support.",
     img: Custom_AI_Models_Pic,
+    path: "/services/custom-ai-models",
   },
   {
     title: "AI Web Integration",
     desc: "Seamless AI integration into websites, dashboards, and digital platforms.",
     img: Ai_Web_Intergration_Pic,
+    path: "/services/ai-web-integration",
   },
 ];
 

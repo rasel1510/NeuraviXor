@@ -22,10 +22,10 @@ const services = [
     path: "/services/graphic-design",
   },
   {
-    title: "E-commerce Solutions",
-    desc: "Optimized product listings, store setup, and conversion-focused e-commerce systems.",
+    title: "Software Development",
+    desc: "Custom software, enterprise applications, and scalable digital solutions tailored to your business needs.",
     img: E_Commerce_Pic,
-    path: "/services/ecommerce",
+    path: "/services/software-development",
   },
   {
     title: "AI Automation",

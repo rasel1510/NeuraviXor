@@ -16,7 +16,7 @@ const Footer = () => {
     'Web Development',
     'UI / UX Design',
     'AI Integration',
-    'E-commerce Solutions',
+    'Software Development',
     'SEO Optimization',
   ];
 

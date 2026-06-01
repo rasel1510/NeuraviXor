@@ -1,8 +1,8 @@
-import Graphics_Design_Pic from "../images/Graphics Design Pic .jpg";
+import Graphics_Design_Pic from "../images/Landing Service/Graphics Design Pic .jpg";
 
 const GraphicsDesign = () => {
   return (
-    <section className="max-w-7xl mx-auto px-6 py-20">
+    <section className="max-w-7xl mx-auto px-6 py-20 transition-colors duration-300">
 
       {/* ================= Banner Section ================= */}
       <div
@@ -14,7 +14,7 @@ const GraphicsDesign = () => {
         }}
       >
         {/* Overlay */}
-        <div className="absolute inset-0 bg-black/55"></div>
+        <div className="absolute inset-0 bg-black/60"></div>
 
         {/* Text */}
         <div className="relative z-10 flex flex-col justify-center items-center h-full text-center px-6">
@@ -22,8 +22,7 @@ const GraphicsDesign = () => {
             Graphics Design Services
           </h1>
           <p className="max-w-2xl text-gray-200 text-lg">
-            Visual identities, brand systems, and digital creatives designed
-            to communicate, convert, and leave a lasting impression.
+            Visual identities, brand systems, and digital creatives designed to communicate, convert, and leave a lasting impression.
           </p>
         </div>
       </div>
@@ -66,13 +65,13 @@ const GraphicsDesign = () => {
           ].map((block, i) => (
             <div
               key={i}
-              className="bg-white p-6 rounded-xl shadow-md
-                         hover:shadow-xl transition duration-300"
+              className="bg-white dark:bg-zinc-800 p-6 rounded-xl shadow-md border border-transparent dark:border-zinc-700
+                         hover:shadow-xl hover:border-orange-400/30 transition duration-300"
             >
-              <h3 className="font-bold text-lg text-black mb-3">
+              <h3 className="font-bold text-lg text-black dark:text-white mb-3">
                 {block.title}
               </h3>
-              <ul className="text-sm text-gray-700 space-y-2">
+              <ul className="text-sm text-gray-700 dark:text-gray-300 space-y-2">
                 {block.items.map((item, idx) => (
                   <li
                     key={idx}
@@ -95,7 +94,7 @@ const GraphicsDesign = () => {
           <img
             src={Graphics_Design_Pic}
             alt="Professional Graphic Designers"
-            className="rounded-2xl h-96 w-full object-cover"
+            className="rounded-2xl shadow-lg h-96 w-full object-cover"
           />
         </div>
 
@@ -105,13 +104,11 @@ const GraphicsDesign = () => {
             Creative & Strategic Designers
           </h2>
 
-          <p className="text-gray-700 leading-relaxed mb-6">
-            Our designers blend creativity with strategy. Every visual we
-            create is aligned with your brand’s voice, business goals,
-            and audience psychology — not just aesthetics.
+          <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
+            Our designers blend creativity with strategy. Every visual we create is aligned with your brand’s voice, business goals, and audience psychology — not just aesthetics.
           </p>
 
-          <ul className="space-y-3 text-gray-700">
+          <ul className="space-y-3 text-gray-700 dark:text-gray-300">
             <li>✔ Strong Brand Storytelling</li>
             <li>✔ Consistent Visual Language</li>
             <li>✔ Modern, Trend-Aware Designs</li>
@@ -126,11 +123,11 @@ const GraphicsDesign = () => {
 
         {/* Left Content */}
         <div>
-          <h2 className="text-3xl font-bold text-black mb-6">
+          <h2 className="text-3xl font-bold text-black dark:text-white mb-6">
             Advanced Design Capabilities
           </h2>
 
-          <ul className="space-y-3 text-gray-700 max-w-xl">
+          <ul className="space-y-3 text-gray-700 dark:text-gray-300 max-w-xl">
             <li>✔ Adobe Photoshop, Illustrator & Figma Expertise</li>
             <li>✔ UI Assets for Web & Mobile Products</li>
             <li>✔ Print & Digital Design Optimization</li>
@@ -144,8 +141,8 @@ const GraphicsDesign = () => {
           <img
             src={Graphics_Design_Pic}
             alt="Advanced Graphic Design Capabilities"
-            className="rounded-2xl w-full h-80 object-cover
-                       transition-transform duration-300"
+            className="rounded-2xl shadow-lg w-full h-80 object-cover
+                       hover:scale-[1.02] transition-transform duration-300"
           />
         </div>
       </div>

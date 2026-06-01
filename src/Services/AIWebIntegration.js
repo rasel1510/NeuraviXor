@@ -1,8 +1,8 @@
-import AI_Web_Pic from "../images/AI Web Integration.png";
+import AI_Web_Pic from "../images/Landing Service/AI Web Integration.png";
 
 const AIWebIntegration = () => {
   return (
-    <section className="max-w-7xl mx-auto px-6 py-20">
+    <section className="max-w-7xl mx-auto px-6 py-20 transition-colors duration-300">
 
       {/* ================= Banner Section ================= */}
       <div
@@ -22,8 +22,7 @@ const AIWebIntegration = () => {
             AI Web Integration
           </h1>
           <p className="max-w-2xl text-gray-200 text-lg">
-            Seamless AI integration into websites, dashboards, and digital
-            platforms to enhance intelligence, automation, and user experience.
+            Seamless AI integration into websites, dashboards, and digital platforms to enhance intelligence, automation, and user experience.
           </p>
         </div>
       </div>
@@ -66,13 +65,13 @@ const AIWebIntegration = () => {
           ].map((block, i) => (
             <div
               key={i}
-              className="bg-white p-6 rounded-xl shadow-md
-                         hover:shadow-xl transition duration-300"
+              className="bg-white dark:bg-zinc-800 p-6 rounded-xl shadow-md border border-transparent dark:border-zinc-700
+                         hover:shadow-xl hover:border-orange-400/30 transition duration-300"
             >
-              <h3 className="font-bold text-lg text-black mb-3">
+              <h3 className="font-bold text-lg text-black dark:text-white mb-3">
                 {block.title}
               </h3>
-              <ul className="text-sm text-gray-700 space-y-2">
+              <ul className="text-sm text-gray-700 dark:text-gray-300 space-y-2">
                 {block.items.map((item, idx) => (
                   <li
                     key={idx}
@@ -105,13 +104,11 @@ const AIWebIntegration = () => {
             Intelligent Systems, Seamlessly Integrated
           </h2>
 
-          <p className="text-gray-700 leading-relaxed mb-6">
-            We embed AI directly into your digital platforms without disrupting
-            performance or user experience. Every integration is optimized for
-            speed, security, and scalability.
+          <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
+            We embed AI directly into your digital platforms without disrupting performance or user experience. Every integration is optimized for speed, security, and scalability.
           </p>
 
-          <ul className="space-y-3 text-gray-700">
+          <ul className="space-y-3 text-gray-700 dark:text-gray-300">
             <li>✔ Frontend & Backend AI Integration</li>
             <li>✔ Secure API & Model Deployment</li>
             <li>✔ Optimized Performance & Latency</li>
@@ -126,11 +123,11 @@ const AIWebIntegration = () => {
 
         {/* Left Content */}
         <div>
-          <h2 className="text-3xl font-bold text-black mb-6">
+          <h2 className="text-3xl font-bold text-black dark:text-white mb-6">
             Advanced AI Integration Capabilities
           </h2>
 
-          <ul className="space-y-3 text-gray-700 max-w-xl">
+          <ul className="space-y-3 text-gray-700 dark:text-gray-300 max-w-xl">
             <li>✔ REST & GraphQL AI APIs</li>
             <li>✔ AI Chat Interfaces & Assistants</li>
             <li>✔ Secure Authentication & Access Control</li>

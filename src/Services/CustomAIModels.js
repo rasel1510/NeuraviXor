@@ -1,8 +1,8 @@
-import Custom_AI_Pic from "../images/Custom AI Models.png";
+import Custom_AI_Pic from "../images/Landing Service/Custom AI Models.png";
 
 const CustomAIModels = () => {
   return (
-    <section className="max-w-7xl mx-auto px-6 py-20">
+    <section className="max-w-7xl mx-auto px-6 py-20 transition-colors duration-300">
 
       {/* ================= Banner Section ================= */}
       <div
@@ -22,8 +22,7 @@ const CustomAIModels = () => {
             Custom AI Models
           </h1>
           <p className="max-w-2xl text-gray-200 text-lg">
-            Business-specific AI models designed for intelligent analysis,
-            prediction, and data-driven decision support.
+            Business-specific AI models designed for intelligent analysis, prediction, and data-driven decision support.
           </p>
         </div>
       </div>
@@ -66,13 +65,13 @@ const CustomAIModels = () => {
           ].map((block, i) => (
             <div
               key={i}
-              className="bg-white p-6 rounded-xl shadow-md
-                         hover:shadow-xl transition duration-300"
+              className="bg-white dark:bg-zinc-800 p-6 rounded-xl shadow-md border border-transparent dark:border-zinc-700
+                         hover:shadow-xl hover:border-orange-400/30 transition duration-300"
             >
-              <h3 className="font-bold text-lg text-black mb-3">
+              <h3 className="font-bold text-lg text-black dark:text-white mb-3">
                 {block.title}
               </h3>
-              <ul className="text-sm text-gray-700 space-y-2">
+              <ul className="text-sm text-gray-700 dark:text-gray-300 space-y-2">
                 {block.items.map((item, idx) => (
                   <li
                     key={idx}
@@ -105,13 +104,11 @@ const CustomAIModels = () => {
             AI Models Built for Your Business
           </h2>
 
-          <p className="text-gray-700 leading-relaxed mb-6">
-            We don’t use generic models. Every AI solution is trained,
-            optimized, and validated using your business data to ensure
-            relevance, accuracy, and measurable impact.
+          <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
+            We don’t use generic models. Every AI solution is trained, optimized, and validated using your business data to ensure relevance, accuracy, and measurable impact.
           </p>
 
-          <ul className="space-y-3 text-gray-700">
+          <ul className="space-y-3 text-gray-700 dark:text-gray-300">
             <li>✔ Business-Specific Model Training</li>
             <li>✔ High Accuracy & Interpretability</li>
             <li>✔ Scalable & Production-Ready Models</li>
@@ -126,11 +123,11 @@ const CustomAIModels = () => {
 
         {/* Left Content */}
         <div>
-          <h2 className="text-3xl font-bold text-black mb-6">
+          <h2 className="text-3xl font-bold text-black dark:text-white mb-6">
             Advanced AI Model Capabilities
           </h2>
 
-          <ul className="space-y-3 text-gray-700 max-w-xl">
+          <ul className="space-y-3 text-gray-700 dark:text-gray-300 max-w-xl">
             <li>✔ Machine Learning & Deep Learning Models</li>
             <li>✔ NLP & Intelligent Text Processing</li>
             <li>✔ Model Evaluation & Performance Tuning</li>

@@ -4,6 +4,11 @@ import Home from "./Home/Home";
 import ProjectsHome from "./Projects/ProjectsHome";
 import Navbar from "./shared/Navbar";
 import WebDevelopment from "./Services/WebDevelopment";
+import SoftwareDevelopment from "./Services/SoftwareDevelopment";
+import GraphicsDesign from "./Services/GraphicsDesign";
+import AiAutomation from "./Services/AiAutomation";
+import CustomAIModels from "./Services/CustomAIModels";
+import AIWebIntegration from "./Services/AIWebIntegration";
 import ServiceHome from "./Services/ServiceHome";
 import Footer from "./shared/Footer";
 import AboutUs from "./About Us/AboutUs";
@@ -22,6 +27,11 @@ function App() {
         <Route path="/about" element={<AboutUs />} />
         <Route path="/services" element={<ServiceHome />} />
         <Route path="/services/web-development" element={<WebDevelopment />} />
+        <Route path="/services/software-development" element={<SoftwareDevelopment />} />
+        <Route path="/services/graphic-design" element={<GraphicsDesign />} />
+        <Route path="/services/ai-automation" element={<AiAutomation />} />
+        <Route path="/services/custom-ai-models" element={<CustomAIModels />} />
+        <Route path="/services/ai-web-integration" element={<AIWebIntegration />} />
         <Route path="/projects" element={<ProjectsHome />} />
         <Route path="/contact" element={<ContactUs />} />
       </Routes>
