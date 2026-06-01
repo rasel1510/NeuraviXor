@@ -6,8 +6,8 @@ import logo from "../images/Neuravixor logo 2.png";
 function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(() => {
-    return localStorage.getItem("theme") === "dark" || 
-           (!localStorage.getItem("theme") && window.matchMedia("(prefers-color-scheme: dark)").matches);
+    return localStorage.getItem("theme") === "dark" ||
+      (!localStorage.getItem("theme") && window.matchMedia("(prefers-color-scheme: dark)").matches);
   });
 
   useEffect(() => {
@@ -58,7 +58,7 @@ function Navbar() {
       <div className="navbar-end hidden lg:flex items-center gap-4">
         <ul className="menu menu-horizontal gap-2 text-lg xl:text-xl font-medium">
           <li><Link to="/about" className={navItemClass}>About Us</Link></li>
-          <li><Link to="/services" className={navItemClass}>Service</Link></li>
+          <li><Link to="/services" className={navItemClass}>Services</Link></li>
           <li><Link to="/projects" className={navItemClass}>Projects</Link></li>
           <li><Link to="/contact" className={navItemClass}>Contact Us</Link></li>
         </ul>
