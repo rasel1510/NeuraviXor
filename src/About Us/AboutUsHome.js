@@ -17,7 +17,7 @@ export default function AboutUsHome() {
           </p>
         </div>
 
-        {/* Mission Section */}
+
         <div className="grid md:grid-cols-2 gap-12 items-center mb-24">
           <div>
             <h2 className="text-3xl font-semibold mb-4">Our Vision & Mission</h2>
