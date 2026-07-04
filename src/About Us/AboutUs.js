@@ -83,7 +83,7 @@ const AboutUs = () => {
         </div>
       </section>
 
-      {/* Why Neuravixor Section */}
+
       <section className="max-w-4xl mx-auto px-6 text-center mb-24">
         <h2 className="text-4xl font-bold text-black dark:text-white mb-8">Why Neuravixor?</h2>
         <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
