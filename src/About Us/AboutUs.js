@@ -16,7 +16,7 @@ const AboutUs = () => {
         </p>
       </section>
 
-      {/* Vision & Mission Section */}
+   
       <section className="max-w-7xl mx-auto px-6 mb-24">
         <div className="grid lg:grid-cols-2 gap-16 items-start">
           <div className="space-y-6">
